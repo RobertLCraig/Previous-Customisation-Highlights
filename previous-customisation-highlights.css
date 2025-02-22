@@ -1,0 +1,31 @@
+/* Styles for the image wrapper in the product edit page */
+.previous-customisation-image-wrapper {
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+}
+
+.previous-customisation-image-wrapper img {
+    display: block;
+}
+
+/* Styles for the delete button in the product edit page */
+.remove-customisation-image {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-customisation-image:hover {
+    background: #cc0000;
+}
+
+/* Hide delete buttons on customer view */
+.woocommerce-tabs .remove-customisation-image {
+    display: none;
+}
